@@ -1,0 +1,26 @@
+{
+  "productName": "Aoi Journal",
+  "version": "0.1.0",
+  "identifier": "jp.aoijournal.app",
+  "build": {
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Aoi Journal",
+        "width": 1200,
+        "height": 800,
+        "resizable": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": []
+  }
+}
